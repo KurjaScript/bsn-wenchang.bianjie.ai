@@ -27,10 +27,10 @@ Avata 平台针对每个用户都提供专属的资金账户。文昌链原生�
 您可登录[ Avata 服务平台](https://console.avata.bianjie.ai)，在我的账户-充值界面进行资金账户充值，Avata 平台目前支持微信支付和支付宝支付方式
 
 第四步：创建链账户，请求服务接口与区块链进行交互，实现业务对接
-- 4.1 文昌链测试环境（请求接口需先指定域名：<font color="#7065FF">https://stage.apis.avata.bianjie.ai/</font>）   
+- 4.1 文昌链测试环境（请求接口需先指定域名：<font color="#7065FF">https://stage.apis.avata.bianjie.ai</font>）   
 （1）请求 <font color="#7065FF">创建链账户</font> 接口生成测试环境的链账户地址  
 （2）测试环境生成的链账户地址中拥有足额的测试能量值，可满足应用对接测试和业务接口调试
-- 4.2 文昌链正式环境（请求接口需先指定域名：<font color="#7065FF">https://apis.avata.bianjie.ai/</font>）  
+- 4.2 文昌链正式环境（请求接口需先指定域名：<font color="#7065FF">https://apis.avata.bianjie.ai</font>）  
 （1）请求 [创建链账户](https://apis.avata.bianjie.ai/#tag/Accounts) 接口生成正式环境的链账户地址  
 （2）正式环境生成的链账户地址用于应用对接上线，需要您保证 Avata 平台资金账户余额充足以满足业务需要。  
 请注意：目前通过 Avata 平台创建的文昌链原生链账户地址生成即上链，会产生一笔上链交易所需的能量值消耗（该费用为 0.05元/个）。建议应用方按照实际会与底层链交互的活跃用户数进行链账户创建，避免提前创建而花费没有必要的能量值费用。

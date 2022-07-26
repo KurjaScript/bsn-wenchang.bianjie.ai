@@ -64,7 +64,7 @@ export default {
             @media (max-width: 400px) {
                 padding: 3rem 1.6rem 8rem;
             }
-            ::v-deep.partners_list_swiper {
+            ::v-deep .partners_list_swiper {
                 margin: 0 auto;
                 max-width: $contentWidth;
                 .swiper-wrapper {

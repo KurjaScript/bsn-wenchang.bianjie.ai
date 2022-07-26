@@ -135,9 +135,7 @@
             {
                 imgLink: https://www.bianjie.ai/resources/WenChangChain/wenchang-HOME-image/Partner-logo/bjzn.png
             },
-            {
-                imgLink: https://www.bianjie.ai/resources/WenChangChain/wenchang-HOME-image/Partner-logo/sdszyq.png
-            },
+           
         ]
     }
 }
